@@ -1,0 +1,7 @@
+a=int(input()) #Get input from the user
+l=[]           #Create empty list 
+for i in range(1,a+1):
+  l.append(i)
+l.sort(reverse=True) #sort the list 
+for i in l[:a+1]:
+  print(i)
